@@ -1,5 +1,9 @@
 package org.rms.service;
 
-public class RmsService {
+import org.rms.vo.SaleInfo;
 
+public interface RmsService {
+
+	public abstract boolean inputSaleInfo(SaleInfo saleInfo);
+	
 }
