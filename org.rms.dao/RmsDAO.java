@@ -6,7 +6,7 @@ import org.rms.vo.SaleInfo;
 
 public interface RmsDAO {
 	
-	public abstract boolean registBuilding(Building building);
+	public abstract String registBuilding(Building building);
 	
 	public abstract boolean registCustomer(Customer customer);
 	
